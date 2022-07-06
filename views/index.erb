@@ -1,17 +1,18 @@
-<% if @name == nil  %>
-    <form action="/named_cat" method="get">
+<% if @name == nil %>
+  <form action="/named_cat" method="get">
     <ul>
-        <li>
-          <input type="text" name="name">
-        </li>
-        <li>
-          <input type="submit" value="Submit">
-        </li>
+      <li>
+        <input type="text" name="name">
+      </li>
+      <li>
+        <input type="submit" value="Submit">
+      </li>
     </ul>
-    </form>
+  </form>
 <% else %>
-      <h1>
-       Hi my name is <%= @name %>
-      </h1>
+  <h1>
+    Hi my name is <%= @name %>
+  </h1>
 <% end %>
+
 <img src='https://i.imgur.com/jFaSxym.png' style='border:medium dashed red'></img>
