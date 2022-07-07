@@ -3,6 +3,11 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+<<<<<<< HEAD
+=======
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
+>>>>>>> 2f73a4ba55084dce5dc82394f598f63232c1b4ca
     capybara (3.37.1)
       addressable
       matrix
@@ -13,6 +18,13 @@ GEM
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
     childprocess (4.1.0)
+<<<<<<< HEAD
+=======
+    chromedriver-helper (2.1.1)
+      archive-zip (~> 0.10)
+      nokogiri (~> 1.8)
+    io-like (0.3.1)
+>>>>>>> 2f73a4ba55084dce5dc82394f598f63232c1b4ca
     matrix (0.4.2)
     mini_mime (1.1.2)
     mustermann (1.1.1)
@@ -54,9 +66,16 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+<<<<<<< HEAD
   selenium-webdriver
   sinatra
   webdrivers
+=======
+  chromedriver-helper
+  selenium-webdriver
+  sinatra
+  webdrivers (~> 5.0)
+>>>>>>> 2f73a4ba55084dce5dc82394f598f63232c1b4ca
 
 BUNDLED WITH
    2.3.15
